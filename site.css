@@ -8,5 +8,26 @@
 }
 
 body {
-    background-color: azure;
+    background-color: #d7e6ed;
+
+}
+
+.cols{
+ display: block;
+}
+
+.col40{
+    float: left;
+    width: 75%;
+}
+
+.col60{
+    float: left;
+    width: 25%
+}
+
+
+.footer{
+    float: none;
+    display: block;
 }
