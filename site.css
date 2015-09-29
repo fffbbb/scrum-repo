@@ -9,25 +9,53 @@
 
 body {
     background-color: #d7e6ed;
-
 }
 
-.cols{
- display: block;
+.cols {
+    display: block;
 }
 
-.col40{
+.col40 {
     float: left;
     width: 75%;
 }
 
-.col60{
+.col60 {
     float: left;
     width: 25%
 }
 
-
-.footer{
+.footer {
     float: none;
     display: block;
+}
+
+.frm {
+    text-align: right;
+    max-width: 400px;
+    width: 100%;
+}
+
+
+.frm,
+textarea {
+    max-width: 400px;
+    width: 100%;
+    min-height: 100px;
+}
+
+
+
+.frm > label,
+.frm>textarea {
+    display: block;
+    padding: 10px 0;
+}
+
+.frm > button{
+ margin: 10px  0;
+}
+
+input{
+    min-width: 200px;
 }

@@ -25,29 +25,48 @@
         <input type="hidden" name="utf8" value="✓">
 
 
-        <div>
+        <div class='frm'>
 
 
             <label>
                 Email Adresiniz:
-                <input type="email" name="email" />
+                <input type="email" id='email' name="email" />
 
             </label>
 
             <label>
                 Konu:
-                <input type="text" name="subject" />
+                <input type="text" id='subject' name="subject" />
 
             </label>
 
-            <textarea name="message"></textarea>
+            <textarea id='message' name="message"></textarea>
 
-            <button type="submit">Gönder</button>
+            <button id='submitBtn' type="submit">Gönder</button>
 
         </div>
 
     </form>
+    <script type="text/javascript">
+        $('#submitBtn').click(function (e) {
 
+            if (!$('#subject').val().length) {
+                alert('Konu giriniz.');
+                e.preventDefault();
+                e.stopPropagation();
+                return;
+            }
+
+
+            if (!validateEmail($('#email').val())) {
+                alert('Geçerli bir email adresi giriniz.');
+                e.preventDefault();
+                e.stopPropagation();
+                return;
+            }
+
+        });
+    </script>
 
 </body>
 
