@@ -11,6 +11,14 @@ $(function () {
             {
                 text: 'Davranışlar',
                 url: 'davranislar.html'
+            },
+            {
+                text: 'Beslenme',
+                url: 'beslenme.html'
+            },
+            {
+                text: 'İlginç Gerçekler',
+                url: 'ilgincgercekler.html'
             }
         ],
         i = 0;
