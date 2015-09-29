@@ -11,7 +11,11 @@ $(function () {
             {
                 text: 'Davranışlar',
                 url: 'davranislar.html'
-            }
+            },
+            {
+                text: 'İletişim',
+                url: 'iletisim.html'
+        }
         ],
         i = 0;
 
