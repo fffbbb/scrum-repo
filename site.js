@@ -2,15 +2,15 @@ $(function () {
     var menu = [
             {
                 text: 'Anasayfa',
-                url: '/'
+                url: ''
             },
             {
                 text: 'Galeri',
-                url: '/galeri.html'
+                url: 'galeri.html'
             },
             {
                 text: 'Davranışlar',
-                url: '/davranislar.html'
+                url: 'davranislar.html'
             }
         ],
         i = 0;
