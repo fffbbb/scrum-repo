@@ -22,9 +22,14 @@ $(function () {
             },
 
             {
-                text: 'İletişim',
-                url: 'iletisim.html'
-        }
+                text: 'Doğal Yaşam',
+                url: 'yasam.html'
+        },
+
+        {
+            text: 'İletişim',
+            url: 'iletisim.html'
+    }
         ],
         i = 0;
 
