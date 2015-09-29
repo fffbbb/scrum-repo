@@ -27,6 +27,11 @@ $(function () {
         },
 
         {
+            text: 'Anatomi',
+            url: 'anatomi.html'
+    },
+
+        {
             text: 'İletişim',
             url: 'iletisim.html'
     }
