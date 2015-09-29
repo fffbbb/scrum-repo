@@ -2,7 +2,7 @@ $(function () {
     var menu = [
             {
                 text: 'Anasayfa',
-                url: ''
+                url: 'index.html'
             },
             {
                 text: 'Galeri',
@@ -12,6 +12,15 @@ $(function () {
                 text: 'Davranışlar',
                 url: 'davranislar.html'
             },
+            {
+                text: 'Beslenme',
+                url: 'beslenme.html'
+            },
+            {
+                text: 'İlginç Gerçekler',
+                url: 'ilgincgercekler.html'
+            },
+
             {
                 text: 'İletişim',
                 url: 'iletisim.html'
