@@ -31,6 +31,11 @@ $(function () {
             url: 'anatomi.html'
     },
 
+    {
+        text: 'Üreme',
+        url: 'ureme.html'
+},
+
         {
             text: 'İletişim',
             url: 'iletisim.html'
